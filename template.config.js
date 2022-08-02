@@ -1,0 +1,26 @@
+module.exports = {
+  placeholderName: 'MetaMask',
+  titlePlaceholder: 'Hello App',
+  templateDir: './template',
+  postInitScript: './scripts.js',
+  infoRollback: [
+    ['@{{rollback}}/contract-metadata', '@metamask/contract-metadata'],
+    ['@{{rollback}}/**/cross-fetch', '@metamask/**/cross-fetch'],
+    ['git+https://github.com/{{rollback}}/react-native-payments.git#dbc8cbbed570892d2fea5e3d183bf243e062c1e5', 'git+https://github.com/MetaMask/react-native-payments.git#dbc8cbbed570892d2fea5e3d183bf243e062c1e5'],
+    ['@keystonehq/{{rollback}}-airgapped-keyring', '@keystonehq/metamask-airgapped-keyring'],
+    ['@{{rollback}}/controllers', '@metamask/controllers'],
+    ['@{{rollback}}/contract-metadata', '@metamask/contract-metadata'],
+    ['@{{rollback}}/design-tokens', '@metamask/design-tokens'],
+    ['@{{rollback}}/etherscan-link', '@metamask/etherscan-link'],
+    ['@{{rollback}}/swaps-controller', '@metamask/swaps-controller'],
+    ['git+https://github.com/{{rollback}}/lottie-react-native.git#7ce6a78ac4ac7b9891bc513cb3f12f8b9c9d9106', 'git+https://github.com/MetaMask/lottie-react-native.git#7ce6a78ac4ac7b9891bc513cb3f12f8b9c9d9106'],
+    ['git+https://github.com/{{rollback}}/react-native-aes-crypto-forked.git#397d5db5250e8e7408294807965b5b9fd4ca6a25', 'git+https://github.com/MetaMask/react-native-aes-crypto-forked.git#397d5db5250e8e7408294807965b5b9fd4ca6a25'],
+    ['git+https://github.com/{{rollback}}/react-native-animated-fox.git#16e38d54d829709e497f196e31fa8ff00cdf2aa9', 'git+https://github.com/MetaMask/react-native-animated-fox.git#16e38d54d829709e497f196e31fa8ff00cdf2aa9'],
+    ['git+https://github.com/{{rollback}}/react-native-button.git#fd79f4d6c8ced4086ba6e3021b6ed6d4a3e19cf7', 'git+https://github.com/MetaMask/react-native-button.git#fd79f4d6c8ced4086ba6e3021b6ed6d4a3e19cf7'],
+    ['git+https://github.com/{{rollback}}/react-native-push-notification.git#975e0e6757c40e3dce2d1b6dd3d66fc91127ac4c', 'git+https://github.com/MetaMask/react-native-push-notification.git#975e0e6757c40e3dce2d1b6dd3d66fc91127ac4c'],
+    ['git+https://github.com/{{rollback}}/react-native-splash-screen.git#1f45c08c0824cd94fdc6fb699529688a73614fee', 'git+https://github.com/MetaMask/react-native-splash-screen.git#1f45c08c0824cd94fdc6fb699529688a73614fee'],
+    ['@{{rollback}}/eslint-config', '@metamask/eslint-config'],
+    ['@{{rollback}}/eslint-config-typescript', '@metamask/eslint-config-typescript'],
+    ['@{{rollback}}/mobile-provider', '@metamask/mobile-provider'],
+  ]
+}

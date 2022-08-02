@@ -1,0 +1,29 @@
+{
+  "name": "react-native-template-metamask",
+  "version": "0.0.5",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingofspartacus/react-native-template-metamask.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "KingOfSpartacus.io kingofspartacus.io@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingofspartacus/react-native-template-metamask/issues"
+  },
+  "homepage": "https://github.com/kingofspartacus/react-native-template-metamask#readme"
+}
